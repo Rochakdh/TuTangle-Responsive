@@ -1,70 +1,4 @@
-.nav-wrapper{
-    height: 85px;
-    width: 100%;  
-    background-color: #7dd9e8;
-}
-.nav{
-    height: 100%;
-    padding: 20px;
-    margin: 0px auto;
-} 
-.logo img{
-    margin: 0px auto;
-}
-.search{
-    display: none;
-}
-.nav-aside{
-    display: none;
-}
-
-.menu-wrapper{
-    height: 90px;
-    width: 100%;
-    background-color: #f5f8f9;
-}
-
-.menu {
-    height: 100%;
-    max-width: 942px;
-    width: 80%;
-    margin: 0px auto;
-    padding: 10px 20px;
-    font-size: 13px;
-}
-.burger-menu{
-    width: 90%;
-    height: 50%;
-    background-color: red;
-    margin: 8px auto;
-    text-align: center;
-    padding: 10px;
-}
-.nabar-value {
-    display: none;
-}
-.menu-aside{
-    text-align: center;
-}
-.menu-aside img{
-    margin-left: 10px
-}
-.body-container-wrapper{
-    width: 100%;
-    height: auto;
-    margin-top: 40px;
-}
-.body-aside{
-    height: auto;
-    width: 100%;
-    background-color: #f5f8f9;
-    float: left;
-    font-size: 11px;
-}
-
-
-
-@media (min-width:768px){
+ @media (min-width:768px){
 
 .nav{
     height: 100%;
@@ -148,13 +82,9 @@
     text-align: right;
     margin-bottom: 3px;
 }
-.burger-menu{
-    display: none;
-}
-.nabar-value {
+.nabar-value{
     display: block;
 }
-
 .nabar-value ul{
     list-style: none;
 }
@@ -180,7 +110,9 @@
     padding: 10px 20px;
     font-size: 13px;
 }
- 
+.burger-menu{
+    display: none;
+}
 .menu-aside{
     text-align: right;
 }
@@ -199,7 +131,7 @@
 }
 .body-container{
     height: 606px;
-    width: 942px;
+    max-width: 942px;
     margin: 0px auto;
 }
 .body-aside{
@@ -208,6 +140,7 @@
     background-color: #f5f8f9;
     float: left;
     font-size: 11px;
+    margin: 0px;
 }
 
 .body-aside-right{
@@ -268,6 +201,7 @@
     height: auto;
 }
 .entries-menu-down{
+    display: block;
     background-color: #f5f8f9;
     height: auto;
     border-bottom: 2px solid #30c1da;
@@ -316,6 +250,10 @@
 .body-entry-list a:hover::after{
     content: url(../images/active-right.png) ;
 } */
+.profile-wall-wrapper{
+    margin: 0px;
+    height: auto;
+}
 .profile-wall{
     height: 100px;
     padding:15px 0px;
@@ -338,10 +276,7 @@
     font-size: 14px;
     padding:4px 0;
 }
-.profile-detail a{
-
-
-}
+ 
 
 .footer-menu-wrapper{
     margin-top: 33px;
@@ -362,7 +297,7 @@
     margin-right: 32px;
 }
 
-.profile-detail b{
+.profile-detail {
     font-size: 10px;
 }
 }

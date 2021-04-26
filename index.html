@@ -2,9 +2,10 @@
 <head>
     <title>Assignment-2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/layout.css">
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="./css/layout.css">
 
 </head>
 <body>
@@ -53,7 +54,7 @@
             <div class="burger-menu">
                 MENU
             </div>
-            <div class="nabar-value">
+            <div class="nabar-value menu-list">
                 <ul>
                     <li class="navbar-item"> <a class="t-black" href="#">Create New Entry </a></li>
                     <li class="navbar-item">  <a class="t-black" href="#">My Topic Boxes</a> </li>
@@ -114,8 +115,16 @@
             <div class="body-main">
                 <h1>Entries</h1>
                 <div class="entries-menu">
-                    <div class="body-entry-menu br-2"> All Entries</div>
-                    <div class="body-entry-menu"> Suscribed</div>
+                    <div class="body-entry-menu br-2"> All Entries
+                        <div class="burger-menu">
+                            Menu
+                        </div>
+                    </div>
+                    <div class="body-entry-menu"> Suscribed
+                        <div class="burger-menu">
+                            Menu
+                        </div>
+                    </div>
                 </div>
                 <div class="entries-menu-down clearfix">  
                     <ul>
@@ -142,23 +151,25 @@
                     </ul>
                 </div>
                 <!-- Profile Start -->
-                <div class="profile-wall clearfix">
-                    <div class="profile-pic">
-                        <img src="images/dp-1.png" width="80px" height="80px">
-                    </div>
-                    <div class="profile-detail">
-                        <h4> Day for Night by Francois Truffaut, a ground breaking film </h4>
-                        <div class="nabar-value">
-                            <ul>
-                                <li class="navbar-item br-1 pdl-0"> by <a class="t-blue" href="#">Alan Coe</a></li>
-                                <li class="navbar-item br-1">  February 10, 2012</li>
-                                <li class="navbar-item pd-0 t-green"> <a class="t-green" href="#">Subscribed </a>  </li>  
-                            </ul>
-                            <ul>
-                            <li class="navbar-item pdl-0" >From Topic Box:<a class="t-blue" href="#">My Favorite Movies </a></li>
-                            </ul>
+                <div class="profile-wall-wrapper">
+                    <div class="profile-wall clearfix">
+                        <div class="profile-pic">
+                            <img src="images/dp-1.png" width="80px" height="80px">
                         </div>
-                        </h4>
+                        <div class="profile-detail">
+                            <h4> Day for Night by Francois Truffaut, a ground breaking film </h4>
+                            <div class="nabar-value profile-wall-list">
+                                <ul>
+                                    <li class="navbar-item br-1 pdl-0"> by <a class="t-blue" href="#">Alan Coe</a></li>
+                                    <li class="navbar-item br-1">  February 10, 2012</li>
+                                    <li class="navbar-item pd-0 t-green"> <a class="t-green" href="#">Subscribed </a>  </li>  
+                                </ul>
+                                <ul>
+                                <li class="navbar-item pdl-0" >From Topic Box:<a class="t-blue" href="#">My Favorite Movies </a></li>
+                                </ul>
+                            </div>
+                            </h4>
+                        </div>
                     </div>
                 </div>
                 <!-- Profile End -->
@@ -171,7 +182,7 @@
                     <div class="profile-detail">
                         <span class="t-blue"> <b>NEW ENTRY! </b></span>
                         <h4> Blade Runner, The Director's Cut </h4>
-                        <div class="nabar-value">
+                        <div class="nabar-value profile-wall-list">
                             <ul>
                                 <li class="navbar-item br-1 pdl-0"> by <a class="t-blue" href="#">Mary Pilot</a></li>
                                 <li class="navbar-item ">  February 8, 2012</li>
@@ -186,14 +197,14 @@
                 <!-- Profile End -->
 
                 <!-- Profile Start -->
-                <div class="profile-wall ">
+                <div class="profile-wall">
                     <div class="profile-pic">
                         <img src="images/dp-3.png" width="80px" height="80px">
                     </div>
                     <div class="profile-detail">
                         <span class="t-blue"> <b>NEW COMMENT! </b></span>
                         <h4> The Best French Resturant in Chicago?</h4>
-                        <div class="nabar-value">
+                        <div class="nabar-value profile-wall-list">
                             <ul>
                                 <li class="navbar-item br-1 pdl-0"> by <a class="t-blue" href="#">Alan Coe</a></li>
                                 <li class="navbar-item">  February 7, 2012</li>
@@ -214,7 +225,7 @@
                     </div>
                     <div class="profile-detail">
                         <h4>  The Meaning of Night.Dark Book but incredibly well written. </h4>
-                        <div class="nabar-value">
+                        <div class="nabar-value profile-wall-list">
                             <ul>
                                 <li class="navbar-item br-1 pdl-0"> by <a class="t-blue" href="#">John-Peter Moise</a></li>
                                 <li class="navbar-item br-1">  February 7, 2012</li>
@@ -236,7 +247,7 @@
                     <div class="profile-detail">
                         <span class="t-red"> <b>HOT TOPIC INVITE!</b></span>
                         <h4>  Pea Pesto </h4>
-                        <div class="nabar-value">
+                        <div class="nabar-value profile-wall-list">
                             <ul>
                                 <li class="navbar-item br-1 pdl-0"> by <a class="t-blue" href="#">Marianne Gig</a></li>
                                 <li class="navbar-item">  February 6, 2012</li>
@@ -271,8 +282,8 @@
 
     <!-- Footer Start -->
     <div class="footer-menu-wrapper">
-        <div class="menu">
-            <div class="nabar-value">
+        <div class="menu footer-menu">
+            <div class="nabar-value footer-list">
                 <ul>
                     <li class="navbar-item no-list-style"> <a href="#">About Us </a></li>
                     <li class="navbar-item">  <a href="#">Contact Us</a> </li>
@@ -280,7 +291,7 @@
                     <li class="navbar-item"> <a href="#">Feedback</a>  </li>  
                 </ul>
             </div>
-            <div class="menu-aside">
+            <div class="menu-aside footer-menu-aside">
                 © TuTangle 2013
             </div>
         </div>
