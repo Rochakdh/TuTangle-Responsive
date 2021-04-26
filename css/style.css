@@ -1,0 +1,45 @@
+input {
+    height: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #caeff7;
+    width: 280px;
+}
+form{
+    display: inline;
+}
+button:active {
+    border-style: outset;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.br-1{
+    border-right: 1px solid #000000;
+}
+
+.pd-0 {
+    padding-right: 0px !important;
+}
+.br-2{
+    border-right: 2px solid white;
+}
+.pdl-0{
+    padding-left: 0px !important;
+}
+.no-list-style{
+    list-style: none !important;
+}
+.t-blue{
+    color:#7dd9e8;
+}
+.t-green{
+    color: #8fb057;
+}
+.t-black {
+    color: #000000;
+}
+.t-red {
+    color:  #b22222
+}
