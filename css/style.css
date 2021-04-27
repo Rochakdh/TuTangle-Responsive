@@ -112,10 +112,11 @@ input {
 }
 .menu {
     height: 100%;
-    width: 942px;
+    max-width: 942px;
+    width: 95%;
     margin: 0px auto;
     padding: 10px 20px;
-    font-size: 13px;
+    font-size: 12px;
 }
 .burger-menu{
     display: none;
@@ -143,12 +144,13 @@ input {
 .body-container{
     height: 606px;
     max-width: 942px;
-    width: 80%;
+    width: 95%;
     margin: 0px auto;
 }
 .body-aside{
     height: 606px;
-    width: 194px;
+    max-width: 194px;
+    width: 90%;
     background-color: #f5f8f9;
     float: left;
     font-size: 11px;
@@ -159,7 +161,8 @@ input {
 }
 .body-main{
     height: auto;
-    width: 550px;
+    max-width: 550px;
+    width: 90%;
     float: left;
     padding: 0px 20px;
 }
