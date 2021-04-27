@@ -58,7 +58,7 @@
 .burger-menu{
     width: 90%;
     height: 30px;
-    background-color: #727272;
+    background-color: #caeff7;
     margin: 8px auto;
     padding: 5px;
 }
@@ -69,8 +69,7 @@
     width: 20px;
 }
 .line{
-    border:1px solid white;
-    height:1px;
+    border:1px solid #727272;
     margin:3px;
 }
 
@@ -236,5 +235,5 @@
 }
 .footer-menu-list{
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
 }
