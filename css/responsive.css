@@ -19,33 +19,37 @@
     display: none;
 }
 
+input {
+    width: 240px;
+    font-size: 12px;
+}
 .search-res {
     margin: 0px auto;
-    width: 400px;
+    max-width: 340px;
     height: 49px;
     position: relative;
 }
 
 .search-side-img{
     position: absolute; 
+    top:-1px
 }
 .cross img{
     position: absolute; 
     height: 10px;
     top: 5px;
-    left: 265px;
+    left: 223px;
 }
 .serach-icon{
     position: absolute;
-    left: 282px;
+    left: 242px;
     top: 0px;
 }
 .search-btn{
     font-size: 12px;
-    margin-left: 9px;
     position: absolute;
     top: 0px;
-    left: 320px;
+    left: 270px;
 }
 .search-btn-left {
     float: left;
@@ -102,7 +106,7 @@
     width: 90%;
     height: 30px;
     background-color: #caeff7;
-    margin: 8px auto;
+    margin: 3px auto;
     padding: 5px;
 }
 .burger-box{
@@ -124,6 +128,9 @@
 }
 .menu-aside img{
     margin-left: 10px
+}
+.freind-request-span{
+    display: block;
 }
 .body-container-wrapper{
     width: 100%;
@@ -161,6 +168,7 @@
 .body-aside a{
     text-decoration: none;
     color: black;
+    display: block;
 }
 .body-aside-menu:hover{
     background-color: #fff;
@@ -258,7 +266,7 @@
 
 .footer-menu-wrapper{
     margin-top: 33px;
-    height: 200px;
+    height: 210px;
     padding: 5px 0px;
     width: 100%;
     background-color: #727272;
