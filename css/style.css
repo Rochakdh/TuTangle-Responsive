@@ -43,3 +43,7 @@ button:hover{
 .t-red {
     color:  #b22222
 }
+.message{
+    font-weight: bold;
+    font-size: 11px;
+}

@@ -152,6 +152,9 @@
     float: left;
     padding: 0px 20px;
 }
+.body-main h1{
+    text-align: left;
+}
 .body-aside ul li {
     list-style: none;
     padding:10px;
