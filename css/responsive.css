@@ -18,6 +18,49 @@
 .search{
     display: none;
 }
+
+.search-res {
+    margin: 0px auto;
+    width: 400px;
+    height: 49px;
+    position: relative;
+}
+
+.search-side-img{
+    position: absolute; 
+}
+.cross img{
+    position: absolute; 
+    height: 10px;
+    top: 5px;
+    left: 265px;
+}
+.serach-icon{
+    position: absolute;
+    left: 282px;
+    top: 0px;
+}
+.search-btn{
+    font-size: 12px;
+    margin-left: 9px;
+    position: absolute;
+    top: 0px;
+    left: 320px;
+}
+.search-btn-left {
+    float: left;
+}
+.search-btn-right {
+    float: left;
+}
+.search-btn a {
+    float: left;
+    height: 20px;
+    background-color: #255056;
+    text-decoration: none;
+    color: white;
+    padding-top: 3px;
+}
 .nav-aside{
     display: block;
     font-size:12px;
@@ -236,4 +279,5 @@
 .footer-menu-list{
     text-align: center;
     padding-top: 10px;
+    color: #ffffff;
 }

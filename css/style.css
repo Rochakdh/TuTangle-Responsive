@@ -62,6 +62,9 @@
     color: white;
     padding-top: 3px;
 }
+.search-res{
+    display: none;
+}
 .input-field{
     border-right: 1px solid #7dd9e8;
 }
