@@ -1,4 +1,13 @@
 @media only screen and (min-width:768px){
+input {
+    height: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #caeff7;
+    max-width: 300px;
+    width: 100%;
+    font-size:11px;
+}
 .nav{
     height: 100%;
     max-width: 942px;
@@ -8,10 +17,16 @@
 }
 .logo{
     float: left;
+    max-width:22%;
 }
+.logo img{
+    max-width: 100%;
+}
+
 .search{
+    max-width: 400px;
     display: block;
-    width: 400px;
+    width: 49%;
     height: 49px;
     float: left;
     top: 3px;
@@ -28,9 +43,11 @@
     position: absolute; 
     height: 10px;
     top: 5px;
-    right: 4px;
+    left: 96%;
 }
 .search-bar{
+    max-width: 300px;
+    width: 70%;
     position: absolute;
     top: 15px; 
     left: 15px;
@@ -38,15 +55,15 @@
 }
 .serach-icon{
     position: absolute;
-    top: 15px;
-    left: 295px;
+    top: 0px;
+    left: 101%;
 }
 .search-btn{
     font-size: 12px;
     margin-left: 9px;
     position: absolute;
     top: 14px;
-    left: 320px;
+    left: 80%;
 }
 .search-btn-left {
     float: left;
@@ -64,9 +81,6 @@
 }
 .search-res{
     display: none;
-}
-.input-field{
-    border-right: 1px solid #7dd9e8;
 }
 .nav-aside{
     display: block;
@@ -118,6 +132,9 @@
     margin-left: 30px;
 }
 
+.freind-request-span{
+    display: inline;
+}
 .body-container-wrapper{
     width: 100%;
     height: auto;
@@ -126,6 +143,7 @@
 .body-container{
     height: 606px;
     max-width: 942px;
+    width: 80%;
     margin: 0px auto;
 }
 .body-aside{
