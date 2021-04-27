@@ -1,5 +1,4 @@
  @media (min-width:768px){
-
 .nav{
     height: 100%;
     max-width: 942px;
@@ -42,7 +41,6 @@
     top: 15px;
     left: 295px;
 }
-
 .search-btn{
     font-size: 12px;
     margin-left: 9px;
@@ -56,8 +54,6 @@
 .search-btn-right {
     float: left;
 }
-
- 
 .search-btn a {
     float: left;
     height: 20px;
@@ -66,18 +62,14 @@
     color: white;
     padding-top: 3px;
 }
-
 .input-field{
     border-right: 1px solid #7dd9e8;
 }
- 
-
 .nav-aside{
     display: block;
     font-size:12px;
     float: right;
 }
-
 .user{
     text-align: right;
     margin-bottom: 3px;
@@ -88,7 +80,6 @@
 .nabar-value ul{
     list-style: none;
 }
-
 .nabar-value li {
     padding :2px 8px;
     float: left;
@@ -97,7 +88,6 @@
 .nabar-value li a {
     text-decoration: none;
 }
-
 .menu-wrapper{
     height: 40px;
     width: 100%;
@@ -142,7 +132,6 @@
     font-size: 11px;
     margin: 0px;
 }
-
 .body-aside-right{
     width: 176px !important;
 }
@@ -181,13 +170,10 @@
     width: 87%;
     float: left;
 }
-
- 
 .entries-menu{
     height: auto;
     font-size: 14px;
 }
-
 .entries-menu{
     height: auto;
 }
@@ -222,7 +208,6 @@
     float: left;
     
 }
-
 .tab-img-a-left{
     float: left;
     margin-left:7px;
@@ -231,28 +216,14 @@
     float: left;
     margin-right: 7px;
 }
-
 .active a{
     color: white;
     background-color: #30c1da;
 }
-/* .entries-menu-down ul::before{
-    content: url(../images/active-left.png) ;
-}
-.active::after{
-    content: url(../images/active-right.png);
-} */
-
 .body-entry-list a:hover{
     color: white;
     background-color: #30c1da;
 }
-/* .body-entry-list a:hover::before{
-    content: url(../images/active-left.png) ;
-}
-.body-entry-list a:hover::after{
-    content: url(../images/active-right.png) ;
-} */
 .profile-wall-wrapper{
     margin: 0px;
     height: auto;
@@ -279,8 +250,6 @@
     font-size: 14px;
     padding:4px 0;
 }
- 
-
 .footer-menu-wrapper{
     margin-top: 33px;
     height: 46px;
@@ -289,17 +258,13 @@
     background-color: #727272;
     color:#ffffff;
 }
-
-
 .footer-menu-wrapper ul li a{
     color: #ffffff;
 }
-
 .footer-menu-wrapper ul li{
     list-style: disc;
     margin-right: 32px;
 }
-
 .profile-detail {
     font-size: 10px;
 }
@@ -307,5 +272,3 @@
     text-align: right;
 }
 }
-
-

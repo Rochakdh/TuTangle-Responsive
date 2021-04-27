@@ -57,12 +57,23 @@
 }
 .burger-menu{
     width: 90%;
-    height: 50%;
-    background-color: #57747a;
+    height: 30px;
+    background-color: #727272;
     margin: 8px auto;
-    text-align: center;
-    padding: 3%;
+    padding: 5px;
 }
+.burger-box{
+    margin: 0px auto;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
+.line{
+    border:1px solid white;
+    height:1px;
+    margin:3px;
+}
+
 .menu-list {
     display:none;
 }
@@ -163,8 +174,8 @@
     height: auto;
 }
 .profile-wall{
-    height: 100px;
-    padding: 20px;
+    height: auto;
+    padding:5px;
     border-bottom: 1px solid #727272;
 }
 .profile-pic{
@@ -173,18 +184,16 @@
 
 }
 .profile-pic img {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
 }
 .profile-detail{
     /* text-align: justify; */
-    font-size: 13px;
+    font-size: 10px;
     float: left;
-    max-width: 300px;
-    width: 90%;
 }
 .profile-detail h4{
-    font-size: 14px;
+    font-size: 12px;
 }
 .profile-wall-list{
     font-size: 12px;
@@ -216,15 +225,15 @@
     list-style: none;
     text-align: center;
     color: white;
+    float: none;
 }
  
 .footer-menu-wrapper li a{
     text-decoration: none;
     color: white;
     display:block;
+    padding: 10px;
 }
- 
-
 .footer-menu-list{
     text-align: center;
     padding: 10px;
