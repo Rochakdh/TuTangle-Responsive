@@ -103,18 +103,29 @@ input {
     font-size: 13px;
 }
 .burger-menu{
-    width: 90%;
     height: 30px;
     background-color: #caeff7;
     margin: 3px auto;
     padding: 5px;
 }
+.menu{
+    width: 80%;
+}
+ 
+.menu-inline a{
+    text-decoration: none;
+    color: black;
+    width: 80%;
+    float: left;
+    height: 100%;
+}
 .burger-box{
-    margin: 0px auto;
     border: 1px solid black;
     height: 20px;
     width: 20px;
+    float: right;
 }
+
 .line{
     border:1px solid #727272;
     margin:3px;
@@ -289,3 +300,4 @@ input {
     padding-top: 10px;
     color: #ffffff;
 }
+
